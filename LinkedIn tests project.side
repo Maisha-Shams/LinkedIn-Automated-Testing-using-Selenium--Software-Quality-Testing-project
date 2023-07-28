@@ -1,0 +1,1766 @@
+{
+  "id": "99d3b626-8ee9-4a10-b8bf-3f34c69304da",
+  "version": "2.0",
+  "name": "LinkedIn test1",
+  "url": "https://www.linkedin.com",
+  "tests": [{
+    "id": "e1364575-f85d-4ad1-89c2-59ac4d98e93e",
+    "name": "LinkedIn test1",
+    "commands": [{
+      "id": "448c3b05-da8d-409a-8b91-47ae2d88e8c4",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37e841a7-820b-4e7f-aa2a-50f0997c6517",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56674080-5ee1-4509-b416-2475785045cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember28",
+      "targets": [
+        ["id=ember28", "id"],
+        ["linkText=Write article", "linkText"],
+        ["css=#ember28", "css:finder"],
+        ["xpath=//a[@id='ember28']", "xpath:attributes"],
+        ["xpath=//div[@id='ember21']/div[2]/div/div/main/div/div[2]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/post/new/')]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Write article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ebc6e3-d731-45b8-abe8-4694af9b51a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember28",
+      "targets": [
+        ["id=ember28", "id"],
+        ["linkText=Write article", "linkText"],
+        ["css=#ember28", "css:finder"],
+        ["xpath=//a[@id='ember28']", "xpath:attributes"],
+        ["xpath=//div[@id='ember21']/div[2]/div/div/main/div/div[2]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/post/new/')]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Write article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff3d955-9f45-4fd2-b331-17e856ea7850",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember24",
+      "targets": [
+        ["id=ember24", "id"],
+        ["css=#ember24", "css:finder"],
+        ["xpath=//button[@id='ember24']", "xpath:attributes"],
+        ["xpath=//div[@id='ember21']/div[2]/div/div/main/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start a post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "589ed167-ab55-4117-860f-8860741a3459",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember24",
+      "targets": [
+        ["id=ember24", "id"],
+        ["css=#ember24", "css:finder"],
+        ["xpath=//button[@id='ember24']", "xpath:attributes"],
+        ["xpath=//div[@id='ember21']/div[2]/div/div/main/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start a post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "388ddb52-5d64-45b4-9f66-390a310fa70e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-item:nth-child(2) .t-12",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(2) .t-12", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Network')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d8c1a6-bf8c-4733-91b9-bd43a723086b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember214 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember214 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember214']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3e7b7198-5839-4fca-927c-2a683df31cc1",
+    "name": "LinkedIn Test2 Search ",
+    "commands": [{
+      "id": "342a3b2b-03f3-412e-95ab-37b003818970",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72caa0fb-8fbe-498f-aaa6-67a4fd473304",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e663cbcf-df16-4e2a-bf1c-a341b69ab17a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b64f5488-86fd-4946-8f15-8a88962a8f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-7ovryd .search-global-typeahead-hit__info",
+      "targets": [
+        ["css=#basic-result-7ovryd .search-global-typeahead-hit__info", "css:finder"],
+        ["xpath=//div[@id='basic-result-7ovryd']/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa43451-6ce3-4563-aca1-958e89068596",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "khalid farhan"
+    }, {
+      "id": "6210bbd9-ae1f-4b36-9bc1-ccb66ba9ebc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de46278-31f8-4bdd-863f-6f0436dfc03d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a8102520-f3d9-4dd7-992c-88686cb56dd7",
+    "name": "Test3 Profile Viewer",
+    "commands": [{
+      "id": "c2062613-bf12-4118-9a65-1ab68b67945c",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e42cee4-ab14-45cf-a0d7-c6111c47079c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbf44936-2d55-4909-962f-3dde76ad56a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember25",
+      "targets": [
+        ["id=ember25", "id"],
+        ["css=#ember25", "css:finder"],
+        ["xpath=//button[@id='ember25']", "xpath:attributes"],
+        ["xpath=//div[@id='ember22']/div[2]/div/div/main/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start a post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7225def-c1db-4aec-a4e3-cc7c47b19c96",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember149 > span",
+      "targets": [
+        ["css=#ember149 > span", "css:finder"],
+        ["xpath=//div[@id='ember149']/span", "xpath:idRelative"],
+        ["xpath=//div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b508cc-a661-4149-8856-b4c233ae6741",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.artdeco-list__item:nth-child(3) .app-aware-link",
+      "targets": [
+        ["css=.artdeco-list__item:nth-child(3) .app-aware-link", "css:finder"],
+        ["xpath=//section[@id='ember263']/div/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/ACoAADfbpXoBasl3V5Co2JI7mdDxKJgwuQmGqTk')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68730232-0227-4b49-b9cc-8623ce759a3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.artdeco-list__item:nth-child(3) .app-aware-link",
+      "targets": [
+        ["css=.artdeco-list__item:nth-child(3) .app-aware-link", "css:finder"],
+        ["xpath=//section[@id='ember263']/div/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/ACoAADfbpXoBasl3V5Co2JI7mdDxKJgwuQmGqTk')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0244819f-96c6-4ee8-b787-26797425db9b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1160)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4cf78940-6bf7-497e-90a3-36d6b550cf68",
+    "name": "Test4 Saving jobs",
+    "commands": [{
+      "id": "ac14abb2-da37-4160-9431-3f612fbcd880",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb3e5073-4886-4c8e-85fc-a534b1e2a2e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74e8946c-5b4c-45ea-8ad3-72e9443ad0af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682e1092-1c92-496e-aa6a-24e9dec77446",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-ember171 .flex-shrink-zero",
+      "targets": [
+        ["css=#basic-result-ember171 .flex-shrink-zero", "css:finder"],
+        ["xpath=//li[@id='basic-result-ember171']/div/p/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'in Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c8064b5-6e33-42d5-a4b3-eb99b1f40baa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember298",
+      "targets": [
+        ["id=ember298", "id"],
+        ["linkText=Software Engineer, Testing", "linkText"],
+        ["css=#ember298", "css:finder"],
+        ["xpath=//a[@id='ember298']", "xpath:attributes"],
+        ["xpath=//div[@id='ember297']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/view/3584686900/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=Vx9eRug2WLsePUQRlB%2BLxA%3D%3D&trackingId=nPwpd7L%2Btl7jYpNfaWa7TA%3D%3D&trk=flagship3_search_srp_jobs')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Software Engineer, Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f71c391-0091-4d5d-a9f1-3213f7c1ed00",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember299 > .job-card-container__company-name",
+      "targets": [
+        ["css=#ember299 > .job-card-container__company-name", "css:finder"],
+        ["xpath=//div[@id='ember299']/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ead8e365-93f8-4205-a0e5-e379b4207b18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jobs-search-two-pane__job-card-container--viewport-tracking-2 .job-flavors__flavor",
+      "targets": [
+        ["css=.jobs-search-two-pane__job-card-container--viewport-tracking-2 .job-flavors__flavor", "css:finder"],
+        ["xpath=//li[@id='ember304']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b97f01f5-678f-4631-ac90-95aba6ddcdc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.artdeco-button--3 > span:nth-child(1)",
+      "targets": [
+        ["css=.artdeco-button--3 > span:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/div/div/div/div/div/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6428051d-1da0-4f44-bffa-c03b2cf173ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.artdeco-button--3 > span:nth-child(1)",
+      "targets": [
+        ["css=.artdeco-button--3 > span:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/div/div/div/div/div/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f266d644-0288-4763-98ba-633d9f6a482b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.artdeco-button--3 > span:nth-child(1)",
+      "targets": [
+        ["css=.artdeco-button--3 > span:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div[2]/div/div/div/div/div/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Saved')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7345ce2f-109e-4fe3-82b4-61e0d1fd8dc0",
+    "name": "test5 commenting ",
+    "commands": [{
+      "id": "14ca075b-d8fa-4093-8f25-fbadca11da66",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec9c0518-76d9-425d-a5d0-b37692d40b1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a9764fe-70ac-4de3-9fd2-e27197c376b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffcdd896-6ac0-4114-80ec-1cc3b4f6bebf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-lr5097 strong:nth-child(1)",
+      "targets": [
+        ["css=#basic-result-lr5097 strong:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='basic-result-lr5097']/div/span/span/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'mohammed nafiur ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db89640-5338-4dfa-9b51-0e6beecc7cf5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mohammed nafiur rashid chowdhury"
+    }, {
+      "id": "2379c400-7128-4a40-858a-00bbb46baa7e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle", "css:finder"],
+        ["xpath=//div[@id='5Zc61RtUSMG624+Tong/Bw==']/div/ul/li/div/a/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "006c0ce7-297a-4d4b-b959-44e6cbbfb933",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle", "css:finder"],
+        ["xpath=//div[@id='5Zc61RtUSMG624+Tong/Bw==']/div/ul/li/div/a/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ace495-5b38-4525-bc58-afb4f393d6f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=View full profile",
+      "targets": [
+        ["linkText=View full profile", "linkText"],
+        ["css=.artdeco-button--default", "css:finder"],
+        ["xpath=//div[@id='5Zc61RtUSMG624+Tong/Bw==']/div/ul/li/div/a/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.linkedin.com/in/mohammed-nafiur-rashid-chowdhury-084669190?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACzyqyQB1ZNmbHMXj4Yd1PJFo35Z6G1lvug')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a003cb14-6399-40b8-9186-648fd5a3ce91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5.599999904632568)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df1ab4f8-a62e-4db7-a7f1-572b4aa63a63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember257 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember257 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember257']/span", "xpath:idRelative"],
+        ["xpath=//span/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e77cdd-073d-4bbb-9433-894e1fbafe5b",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[@id='ember293']/div[2]/form/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>nice!</p>"
+    }, {
+      "id": "f675195e-e4a9-4abc-b340-40323b9b5b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember303 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember303 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember303']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09ef84c1-e978-471e-ab43-f9dc911e1804",
+    "name": "test6 Deleting comments",
+    "commands": [{
+      "id": "1b385ea4-e275-4231-9380-5cce0016a237",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabd220a-f3eb-4b6b-ad7c-9369acd5c618",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08f2bf2c-191d-4f02-b965-c2c7e566b257",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98f0af9c-8f85-4fd5-b0d0-9c2ec55d7421",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-lrgjdi > .search-global-typeahead-hit",
+      "targets": [
+        ["css=#basic-result-lrgjdi > .search-global-typeahead-hit", "css:finder"],
+        ["xpath=//div[@id='basic-result-lrgjdi']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a02772e4-4872-43dd-a287-1529b00a1cc7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mohammed nafiur rashid chowdhury"
+    }, {
+      "id": "e90d2633-849e-4602-a388-b5fc477f3961",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-details-social-counts__count-value > span:nth-child(1)",
+      "targets": [
+        ["css=.social-details-social-counts__count-value > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember283']/div/ul/li[2]/button/span", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 comments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "192d7277-828f-4f1b-bb59-87fe6151084d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.social-details-social-counts__count-value > span:nth-child(1)",
+      "targets": [
+        ["css=.social-details-social-counts__count-value > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember283']/div/ul/li[2]/button/span", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 comments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "613404f9-c08c-483f-93c3-51add6be24ee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.social-details-social-counts__count-value > span:nth-child(1)",
+      "targets": [
+        ["css=.social-details-social-counts__count-value > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember283']/div/ul/li[2]/button/span", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 comments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f63350-65bf-4f25-8da0-c9f3767855cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember345 .mercado-match",
+      "targets": [
+        ["css=#ember345 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ff5c65f-c9e4-4cc2-92b9-91681b89dcfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember367 > .button-content-container",
+      "targets": [
+        ["css=#ember367 > .button-content-container", "css:finder"],
+        ["xpath=//div[@id='ember367']/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78630542-64af-406d-bcda-9a7c7f0ff318",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember385 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember385 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember385']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7f5a820e-100f-45b9-874c-635a91fd6cb7",
+    "name": "test7 liking post",
+    "commands": [{
+      "id": "c5009aae-a076-46ba-830b-bb94fa32e164",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94c84827-8fb7-4098-b6bd-8b449b11f83a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c6afdd9-f1ef-4a2a-bf8a-15a6f5b5f0ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5.599999904632568)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "754693ff-ce96-45b6-be53-5026cb9c86ea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1164.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "432641e9-d6a5-4318-aa35-45dc6a9bd7fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember65",
+      "targets": [
+        ["id=ember65", "id"],
+        ["css=#ember65", "css:finder"],
+        ["xpath=//button[@id='ember65']", "xpath:attributes"],
+        ["xpath=//div[@id='ember63']/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02a9c15c-3374-4c53-842d-3c2aecc675d1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember65",
+      "targets": [
+        ["id=ember65", "id"],
+        ["css=#ember65", "css:finder"],
+        ["xpath=//button[@id='ember65']", "xpath:attributes"],
+        ["xpath=//div[@id='ember63']/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "679c271a-620e-4e61-8297-fd1220f8d42d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1198.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6ef550c-da9b-4989-b570-58035cf11a46",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember65 .flex-wrap > .artdeco-button__text",
+      "targets": [
+        ["css=#ember65 .flex-wrap > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember65']/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c411af7-bfba-4ff8-ab28-218ab9bbd176",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember68",
+      "targets": [
+        ["id=ember68", "id"],
+        ["css=#ember68", "css:finder"],
+        ["xpath=//button[@id='ember68']", "xpath:attributes"],
+        ["xpath=//span[@id='ember67']/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Comment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a508edd-6ca1-40ef-864b-ee5816094314",
+    "name": "test8 notification check",
+    "commands": [{
+      "id": "7ce9141a-37b9-49e9-8c3c-338122edcc04",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da36372d-9df6-4769-96c5-577a941ae17d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83628e44-b1ad-4640-866b-7c0e4b52533f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Notifications",
+      "targets": [
+        ["linkText=Notifications", "linkText"],
+        ["css=.global-nav__primary-item:nth-child(5) > .app-aware-link", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/notifications/?')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Notifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4db8ff0f-22e5-4366-b38e-a3cd58516462",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Notifications",
+      "targets": [
+        ["linkText=Notifications", "linkText"],
+        ["css=.global-nav__primary-item:nth-child(5) > .app-aware-link", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/notifications/?')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Notifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5330a1d-2491-4c67-af48-eafec9c4e4d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-item:nth-child(5) .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(5) .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0825aff2-d700-4329-a020-e2d4c60a7827",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.global-nav__primary-link--active .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-link--active .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4891a9fa-3ebf-4a44-be38-7ce3d0915aff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Amirul Islam posted: ছোটভাইরে প্রোগ্রামিং শেখাচ্ছিলাম। বলে এইসব ভুংচুং শিখে কি লাভ? ভালো কিছু নাই? ভালো কিছু দেন। আমি তারে কিছু বলি নাই। শুধু বললাম, কি করতে চাস? বলে, আপুর মত অংক করতে দেন। ওরে ম্যাথ করানো আরো ঝামেলার। সবসময় এক লাইন বেশি বুঝে। আজকে প্রাইম নাম্বার শিখাইছি। বললাম, কি পড়ালাম রিভাইজ দিয়ে আয়। এসে বলতেছে, খেয়াল করছেন দুইটা প্রাইম নাম্বারের যোগফল কিন্তু সবসময় আরেকটা প্রাইম নাম্বার? আমি বললাম, এটা সত্য নয়। সে তার স্টেটমেন্টে অনড়। খাতা এনে দেখাইতেছে, ২ আর ৩ মিলে কত? ৫ আর কি। ৫ কি নাম্বার? প্রাইম নাম্বার। সেটা ঠিক আছে। কিন্তু... কোনো কিন্তু না। বলেন, ২ আর ৫ মিলে কত? ৭ ৭ কি নাম্বার? প্রাইম নাম্বার। কিন্তু... ২ আর ১১ কত বলেন? অই ব্যাটা, রাখ তোর ২ আর ১১। ৩ আর ১১ কত বল? ৩ আর ৫ কত বল? ৩ আর ৭ কত বল? এই রে! এগুলো কোত্থেকে আসলো? শিট শিট। বুঝলাম নিজের ভুল বুঝতে পেরে লজ্জ্বা পাইছে। এখন আমি নতুন চাল দিলাম, \"একটা জোড় সংখ্যা সবসময় দুইটা প্রাইম নাম্বারের যোগফল।\" এটা একটা বিখ্যাত থিওরি, নাম Goldbach conjecture. সে এটা জানে না। আমাকে ভূল প্রমাণ করার জন্য হোক, কিংবা নিজের লজ্জ্বা কমানোর জন্য খাতায় হিসাব করেই যাচ্ছে। 😛 দেখা যাক, কতক্ষণে টায়ার্ড হয়। তারপর বুঝাবো কম্পিউটার প্রোগ্রামিং জানার গুরুত্ব কি। 🥱 #programming #jokes #computerprogramming #math #primenumber",
+      "targets": [
+        ["linkText=Amirul Islam posted: ছোটভাইরে প্রোগ্রামিং শেখাচ্ছিলাম। বলে এইসব ভুংচুং শিখে কি লাভ? ভালো কিছু নাই? ভালো কিছু দেন। আমি তারে কিছু বলি নাই। শুধু বললাম, কি করতে চাস? বলে, আপুর মত অংক করতে দেন। ওরে ম্যাথ করানো আরো ঝামেলার। সবসময় এক লাইন বেশি বুঝে। আজকে প্রাইম নাম্বার শিখাইছি। বললাম, কি পড়ালাম রিভাইজ দিয়ে আয়। এসে বলতেছে, খেয়াল করছেন দুইটা প্রাইম নাম্বারের যোগফল কিন্তু সবসময় আরেকটা প্রাইম নাম্বার? আমি বললাম, এটা সত্য নয়। সে তার স্টেটমেন্টে অনড়। খাতা এনে দেখাইতেছে, ২ আর ৩ মিলে কত? ৫ আর কি। ৫ কি নাম্বার? প্রাইম নাম্বার। সেটা ঠিক আছে। কিন্তু... কোনো কিন্তু না। বলেন, ২ আর ৫ মিলে কত? ৭ ৭ কি নাম্বার? প্রাইম নাম্বার। কিন্তু... ২ আর ১১ কত বলেন? অই ব্যাটা, রাখ তোর ২ আর ১১। ৩ আর ১১ কত বল? ৩ আর ৫ কত বল? ৩ আর ৭ কত বল? এই রে! এগুলো কোত্থেকে আসলো? শিট শিট। বুঝলাম নিজের ভুল বুঝতে পেরে লজ্জ্বা পাইছে। এখন আমি নতুন চাল দিলাম, \"একটা জোড় সংখ্যা সবসময় দুইটা প্রাইম নাম্বারের যোগফল।\" এটা একটা বিখ্যাত থিওরি, নাম Goldbach conjecture. সে এটা জানে না। আমাকে ভূল প্রমাণ করার জন্য হোক, কিংবা নিজের লজ্জ্বা কমানোর জন্য খাতায় হিসাব করেই যাচ্ছে। 😛 দেখা যাক, কতক্ষণে টায়ার্ড হয়। তারপর বুঝাবো কম্পিউটার প্রোগ্রামিং জানার গুরুত্ব কি। 🥱 #programming #jokes #computerprogramming #math #primenumber", "linkText"],
+        ["css=div:nth-child(2) > .nt-card .nt-card__headline", "css:finder"],
+        ["xpath=//section[@id='ember235']/div/div/div/div[2]/article/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/feed/update/urn%3Ali%3Aactivity%3A7063782315449069568?origin=SHARED_BY_YOUR_NETWORK')]", "xpath:href"],
+        ["xpath=//div[2]/article/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Amirul Islam posted: ছোটভাইরে প্রোগ্রামিং শেখাচ্ছিলাম। বলে এইসব ভুংচুং শিখে কি লাভ? ভালো কিছু নাই? ভালো কিছু দেন। আমি তারে কিছু বলি নাই। শুধু বললাম, কি করতে চাস? বলে, আপুর মত অংক করতে দেন। ওরে ম্যাথ করানো আরো ঝামেলার। সবসময় এক লাইন বেশি বুঝে। আজকে প্রাইম নাম্বার শিখাইছি। বললাম, কি পড়ালাম রিভাইজ দিয়ে আয়। এসে বলতেছে, খেয়াল করছেন দুইটা প্রাইম নাম্বারের যোগফল কিন্তু সবসময় আরেকটা প্রাইম নাম্বার? আমি বললাম, এটা সত্য নয়। সে তার স্টেটমেন্টে অনড়। খাতা এনে দেখাইতেছে, ২ আর ৩ মিলে কত? ৫ আর কি। ৫ কি নাম্বার? প্রাইম নাম্বার। সেটা ঠিক আছে। কিন্তু... কোনো কিন্তু না। বলেন, ২ আর ৫ মিলে কত? ৭ ৭ কি নাম্বার? প্রাইম নাম্বার। কিন্তু... ২ আর ১১ কত বলেন? অই ব্যাটা, রাখ তোর ২ আর ১১। ৩ আর ১১ কত বল? ৩ আর ৫ কত বল? ৩ আর ৭ কত বল? এই রে! এগুলো কোত্থেকে আসলো? শিট শিট। বুঝলাম নিজের ভুল বুঝতে পেরে লজ্জ্বা পাইছে। এখন আমি নতুন চাল দিলাম, \"একটা জোড় সংখ্যা সবসময় দুইটা প্রাইম নাম্বারের যোগফল।\" এটা একটা বিখ্যাত থিওরি, নাম Goldbach conjecture. সে এটা জানে না। আমাকে ভূল প্রমাণ করার জন্য হোক, কিংবা নিজের লজ্জ্বা কমানোর জন্য খাতায় হিসাব করেই যাচ্ছে। 😛 দেখা যাক, কতক্ষণে টায়ার্ড হয়। তারপর বুঝাবো কম্পিউটার প্রোগ্রামিং জানার গুরুত্ব কি। 🥱 #programming #jokes #computerprogramming #math #primenumber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f308ada8-c8d3-4885-9433-6e023f45bdf6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d078498a-9332-4771-8890-5f9c03fc5ddd",
+    "name": "test9 unliking a post",
+    "commands": [{
+      "id": "90dcfc95-1282-4fd1-bb7a-393184fd8396",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "343e97d9-9099-4886-85f8-9a95f26106e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "384254cb-6ad6-488d-8cdd-c609ed6e34af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd541e74-0438-4ccb-a1d0-104f3077451d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-7yul8h > .search-global-typeahead-hit",
+      "targets": [
+        ["css=#basic-result-7yul8h > .search-global-typeahead-hit", "css:finder"],
+        ["xpath=//div[@id='basic-result-7yul8h']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8a3e73c-0873-415a-8635-a1dea84ac29d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mohammed nafiur rashid chowdhury"
+    }, {
+      "id": "d600bec2-cd36-43c5-92db-295965684d3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d64d52-063a-40ba-aa25-f44f7a9b96bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7688f49-1104-42f0-b4f8-37c4acfa7a71",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-nec__hero-kcard-v2",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2", "css:finder"],
+        ["xpath=//div[@id='0KBe3/o5QyWMgFxlNkHAOg==']/div/ul/li/div/a/div", "xpath:idRelative"],
+        ["xpath=//li/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf17e31-5347-427d-9293-ba06a8591272",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-nec__hero-kcard-v2",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2", "css:finder"],
+        ["xpath=//div[@id='0KBe3/o5QyWMgFxlNkHAOg==']/div/ul/li/div/a/div", "xpath:idRelative"],
+        ["xpath=//li/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7955256-e2cd-4ab0-8747-b4db9b1149ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-nec__hero-kcard-v2",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2", "css:finder"],
+        ["xpath=//div[@id='0KBe3/o5QyWMgFxlNkHAOg==']/div/ul/li/div/a/div", "xpath:idRelative"],
+        ["xpath=//li/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd64f17-b3e4-4862-9a56-a5c538ff8e3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reactions-react-button__icon",
+      "targets": [
+        ["css=.reactions-react-button__icon", "css:finder"],
+        ["xpath=(//img[@alt='like'])[3]", "xpath:img"],
+        ["xpath=//button[@id='ember312']/span/div/img", "xpath:idRelative"],
+        ["xpath=//span/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7903b2b-8200-4c88-8ed0-fcf54521cb6c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.justify-center > .artdeco-button__icon",
+      "targets": [
+        ["css=.justify-center > .artdeco-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "13048151-39c5-4c63-8c56-81e149317263",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.justify-center > .artdeco-button__icon",
+      "targets": [
+        ["css=.justify-center > .artdeco-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8e9270ba-2094-49d0-80d8-5b701694172c",
+    "name": "test10 view full profile",
+    "commands": [{
+      "id": "7eecb205-27bc-4fd5-8359-cc3b57bb7c6b",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b281c45-5b94-49b8-90c6-2bd01f6cd769",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b28a5063-a934-4d3d-b3eb-f17bb10373fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e139b522-3f78-4b28-a146-0280f69ae5e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-w72qq .t-12",
+      "targets": [
+        ["css=#basic-result-w72qq .t-12", "css:finder"],
+        ["xpath=//div[@id='basic-result-w72qq']/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d0d8d0-25da-48a6-89bb-fb58b3859a22",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fariha karim"
+    }, {
+      "id": "7fc46e09-70fc-46ba-82cc-14bc9de1bee5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8570da97-0582-4151-b73c-27b231ae829b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(3) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Companies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23dfa512-61cc-403c-b170-206765a4c667",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle", "css:finder"],
+        ["xpath=//div[@id='e9GlAehPR0+Gn+xJqjcM3w==']/div/ul/li/div/a/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931db6ae-0d42-4bc4-b84f-7263bd353baf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle",
+      "targets": [
+        ["css=.search-nec__hero-kcard-v2-content .entity-result__primary-subtitle", "css:finder"],
+        ["xpath=//div[@id='e9GlAehPR0+Gn+xJqjcM3w==']/div/ul/li/div/a/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fba46ea6-b1e1-44f2-b409-2d92682b7f2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.align-items-center > .image-text-lockup__text",
+      "targets": [
+        ["css=.align-items-center > .image-text-lockup__text", "css:finder"],
+        ["xpath=//div[@id='e9GlAehPR0+Gn+xJqjcM3w==']/div/ul/li/div/a/div/div[2]/div[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View full profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e9f4d4bb-8ffc-4e24-958a-5f598fcf0c3a",
+    "name": "test11 messaging feature",
+    "commands": [{
+      "id": "71032e82-60a8-462f-826e-119ce12f8938",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae539138-1727-4fee-ac7f-92ed72b58a5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcacfd10-2514-464b-9d0b-17ca6cb7d67a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember207 > .t-14",
+      "targets": [
+        ["css=#ember207 > .t-14", "css:finder"],
+        ["xpath=//a[@id='ember207']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'MOHAMMED NAFIUR RASHID CHOWDHURY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c211470-c0d3-4334-98a7-7d22bcd58dcb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ember207 > .t-14",
+      "targets": [
+        ["css=#ember207 > .t-14", "css:finder"],
+        ["xpath=//a[@id='ember207']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'MOHAMMED NAFIUR RASHID CHOWDHURY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "974467db-abcc-4be0-9812-2fa465772cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-form__contenteditable > p",
+      "targets": [
+        ["css=.msg-form__contenteditable > p", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember214']/div[3]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc5f5dc-6df4-488c-a0e8-c26df1eeda67",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.msg-form__contenteditable",
+      "targets": [
+        ["css=.msg-form__contenteditable", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember214']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>hi!</p>"
+    }, {
+      "id": "0e1d645a-0c4d-4d04-bdb7-d6e9f9e08dce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-form__send-button",
+      "targets": [
+        ["css=.msg-form__send-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='msg-form-ember214']/footer/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aefedf4-0236-4edd-ac30-35d8b7c7b2cd",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.msg-form__contenteditable",
+      "targets": [
+        ["css=.msg-form__contenteditable", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember214']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "<p><br></p>"
+    }]
+  }, {
+    "id": "061bbe7c-ceb8-4a51-9140-2bce9932805d",
+    "name": "test12 delete message",
+    "commands": [{
+      "id": "6fcfc8f4-dd3d-4733-95fe-1f5dd9ac7b32",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "863885ca-e03b-455d-b7b7-d353720fd987",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb8030d9-d581-49f3-8eac-3248b766b719",
+      "comment": "",
+      "command": "click",
+      "target": "css=.truncate:nth-child(1) > span:nth-child(1)",
+      "targets": [
+        ["css=.truncate:nth-child(1) > span:nth-child(1)", "css:finder"],
+        ["xpath=//aside[@id='msg-overlay']/div/header/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e25dce-574d-4178-86de-980f6d3bc910",
+      "comment": "",
+      "command": "click",
+      "target": "css=#overlay-conversation-card-ember213 .msg-overlay-list-bubble__message-snippet--v2",
+      "targets": [
+        ["css=#overlay-conversation-card-ember213 .msg-overlay-list-bubble__message-snippet--v2", "css:finder"],
+        ["xpath=//div[@id='overlay-conversation-card-ember213']/div/div/div[2]/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'You: hi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb92714a-ee72-4bf5-8d56-90f823e25849",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-s-event-listitem__options-trigger-icon > .mercado-match",
+      "targets": [
+        ["css=.msg-s-event-listitem__options-trigger-icon > .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc107713-6727-485b-a967-3e1ad75152a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember378",
+      "targets": [
+        ["id=ember378", "id"],
+        ["css=#ember378", "css:finder"],
+        ["xpath=//div[@id='ember378']", "xpath:attributes"],
+        ["xpath=//div[@id='ember375']/div/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/ul/li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6618afd6-d6ab-4592-ad19-3631f804989e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember387 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember387 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember387']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "256bbb54-6e71-493e-83fd-89a7401245f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-s-event-listitem--m2m-msg-followed-by-date-boundary > .msg-s-event-listitem__body--recalled",
+      "targets": [
+        ["css=.msg-s-event-listitem--m2m-msg-followed-by-date-boundary > .msg-s-event-listitem__body--recalled", "css:finder"],
+        ["xpath=//div[@id='ember290']/div[2]/div/div[3]/div/ul/li[22]/div/p", "xpath:idRelative"],
+        ["xpath=//li[22]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9898305-68a0-436f-89bc-6af3cf1f5566",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.msg-s-event-listitem--m2m-msg-followed-by-date-boundary > .msg-s-event-listitem__body--recalled",
+      "targets": [
+        ["css=.msg-s-event-listitem--m2m-msg-followed-by-date-boundary > .msg-s-event-listitem__body--recalled", "css:finder"],
+        ["xpath=//div[@id='ember290']/div[2]/div/div[3]/div/ul/li[22]/div/p", "xpath:idRelative"],
+        ["xpath=//li[22]/div/p", "xpath:position"]
+      ],
+      "value": "This message has been deleted."
+    }, {
+      "id": "41d9797c-b7f2-4a62-80ab-96fa4250a4bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember298 .mercado-match",
+      "targets": [
+        ["css=#ember298 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0aa5e2-ebb2-4c1a-8662-89246c84bb63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember148 .mercado-match",
+      "targets": [
+        ["css=#ember148 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "223ed9f9-58b8-452b-89f7-0396860cf154",
+    "name": "test13 recommended for you",
+    "commands": [{
+      "id": "ae085ee7-820c-4dd5-b29a-da7b0819a667",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae8edfe4-92f6-4677-a123-031c561d7a5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf6e3f27-bb2a-495e-aaf6-8efd069ec46e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-item:nth-child(3) .t-12",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(3) .t-12", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3edb92f6-23f8-4a1c-b671-bdb5aca03e05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#recentSearchesIndex__2 > .t-black--light",
+      "targets": [
+        ["css=#recentSearchesIndex__2 > .t-black--light", "css:finder"],
+        ["xpath=//a[@id='recentSearchesIndex__2']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Dhaka, Bangladesh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5e55d1f-0d30-404d-b372-fb466cddd008",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember282 > #jobs-home-vertical-list__entity-list > .discovery-templates-entity-item:nth-child(1) .job-card-list__insight > .display-flex",
+      "targets": [
+        ["css=#ember282 > #jobs-home-vertical-list__entity-list > .discovery-templates-entity-item:nth-child(1) .job-card-list__insight > .display-flex", "css:finder"],
+        ["xpath=//ul[@id='jobs-home-vertical-list__entity-list']/li/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9ee22a-988b-4bca-ae9c-501d58406cbb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember422",
+      "targets": [
+        ["id=ember422", "id"],
+        ["linkText=Social Media Analyst in Bangladesh", "linkText"],
+        ["css=#ember422", "css:finder"],
+        ["xpath=//a[@id='ember422']", "xpath:attributes"],
+        ["xpath=//div[@id='ember421']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/view/3590923429/?eBP=CwEAAAGIH18SbXU7hCXp394wJ_lLScgFPuVO-o5dD3eNkhxeRa4cBL7hOgtANEg1B8Rynw2rcZLzNQ4nQnfE-K88f_TOXN8tDU6Kq86vfq_k-HRabWI5JhDDFVJP0hL4SAx3TbZuYpO7B92tgKnBtvHvT3wARYRPqK7tmr6cWfmMC-8lTN4Sn61Qmc65HcalOSZiyifKETU1_hYuk7vRVV8dpqgr6HKe14Yslc8TcyNkZXwHJcCZD-zEsn26PGNTaM9s6z0XEFL_BDVM1AoIpAqmRUorE_qXJxPr_fBJYdF0AEuKnxBMBwMs6nNZGbO_oBdNKHtFIoDWFgjc-r_taF2fCspRFIJoZeFjSyQJH-k4&refId=iHPBngNoRKnRp6J2nof76g%3D%3D&trackingId=grUw5T4kopu%2BSWe2hDavhg%3D%3D&trk=flagship3_jobs_discovery_jymbii')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Social Media Analyst in Bangladesh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5dc97fd-0002-4f7e-a224-1849ad43c759",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jobs-search-results-list__list-item--active > .job-card-list__insight > .display-flex",
+      "targets": [
+        ["css=.jobs-search-results-list__list-item--active > .job-card-list__insight > .display-flex", "css:finder"],
+        ["xpath=//li[@id='ember404']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "621d0827-e0ca-42b1-adff-578f2276a8e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.jobs-search-results-list__list-item--active .job-card-container__job-insight-text",
+      "targets": [
+        ["css=.jobs-search-results-list__list-item--active .job-card-container__job-insight-text", "css:finder"],
+        ["xpath=//li[@id='ember404']/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your profile matches this job"
+    }]
+  }, {
+    "id": "e5853851-e197-4523-bb9b-879e462a9010",
+    "name": "test14 verifying account sign in",
+    "commands": [{
+      "id": "4d53cfb3-80c9-4e68-a3f3-ff7dd1fa28c7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bf95f7f-6ab8-484a-a4aa-c6113fe6abc8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64d13a6a-67cd-4181-8f62-0b3728ce130f",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09719999-3b44-4828-9bce-fd4df843a02a",
+      "comment": "",
+      "command": "type",
+      "target": "id=session_password",
+      "targets": [
+        ["id=session_password", "id"],
+        ["name=session_password", "name"],
+        ["css=#session_password", "css:finder"],
+        ["xpath=//input[@id='session_password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/section/div/div/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "dwshjwew"
+    }, {
+      "id": "50c591bf-8c98-4fc8-91a1-37a687cc7de3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-in-form__submit-btn--full-width",
+      "targets": [
+        ["css=.sign-in-form__submit-btn--full-width", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/section/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc5a2d43-ffaa-4577-86db-055db03754f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=session_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Maisha12303!!!"
+    }, {
+      "id": "e5d284ac-920c-42db-b988-26cef9500f41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-layout",
+      "targets": [
+        ["css=.card-layout", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='app__container']/main/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34807b3a-63cc-4350-a1bc-4e9f7364b809",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=error-for-password",
+      "targets": [
+        ["id=error-for-password", "id"],
+        ["css=#error-for-password", "css:finder"],
+        ["xpath=//div[@id='error-for-password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": "That's not the right password. Try again or\\nsign in with a one-time link"
+    }]
+  }, {
+    "id": "020a8907-a132-4484-8c38-8e7742946783",
+    "name": "test15 remove profile picture",
+    "commands": [{
+      "id": "682d84d1-c38f-4036-a165-1a0bee96c0f0",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b11f5be7-c81e-48c2-865e-d2d816fbb7d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9574d54f-0cd8-4d3e-a715-fbb4c8566bd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-16:nth-child(2)",
+      "targets": [
+        ["css=.t-16:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='ember155']/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5139f81-8a17-4c7a-b7ce-e5a86a0b2ccd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember230",
+      "targets": [
+        ["id=ember230", "id"],
+        ["css=#ember230", "css:finder"],
+        ["xpath=(//img[@alt='maisha shams'])[3]", "xpath:img"],
+        ["xpath=//img[@id='ember230']", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13d7ef65-81b9-4459-bdbb-0f1f87726846",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember230",
+      "targets": [
+        ["id=ember230", "id"],
+        ["css=#ember230", "css:finder"],
+        ["xpath=(//img[@alt='maisha shams'])[3]", "xpath:img"],
+        ["xpath=//img[@id='ember230']", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afe62e6e-5cb7-4a86-b27c-74b5945265e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.profile-photo-edit__edit-btn",
+      "targets": [
+        ["css=.profile-photo-edit__edit-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6619f1-9e47-4759-82e4-b21ddf442e60",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.profile-photo-edit__edit-btn",
+      "targets": [
+        ["css=.profile-photo-edit__edit-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a778fd-b12a-4f5f-9b23-ad52cca3a446",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember230",
+      "targets": [
+        ["id=ember230", "id"],
+        ["css=#ember230", "css:finder"],
+        ["xpath=(//img[@alt='maisha shams'])[3]", "xpath:img"],
+        ["xpath=//img[@id='ember230']", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc1630d-7701-4c70-af99-d846018c5330",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember230",
+      "targets": [
+        ["id=ember230", "id"],
+        ["css=#ember230", "css:finder"],
+        ["xpath=(//img[@alt='maisha shams'])[3]", "xpath:img"],
+        ["xpath=//img[@id='ember230']", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8255a83f-34ce-4044-9243-7c95077f923a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember230",
+      "targets": [
+        ["id=ember230", "id"],
+        ["css=#ember230", "css:finder"],
+        ["xpath=(//img[@alt='maisha shams'])[3]", "xpath:img"],
+        ["xpath=//img[@id='ember230']", "xpath:attributes"],
+        ["xpath=//section[@id='ember225']/div[2]/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac676be-d45a-46cc-8b6e-0b88838b344c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember368 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember368 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember368']/span", "xpath:idRelative"],
+        ["xpath=//button[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ab163a-a0e4-43be-b84d-02bb7ec90ef7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember377 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember377 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember377']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a5726828-e04c-4186-b5e1-37b199d76f0d",
+    "name": "test16 change language",
+    "commands": [{
+      "id": "77b1c335-a5c9-487f-8b0a-391694b1cadf",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88cf2b05-c1e9-4f6d-843d-f39639b5b4ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86e904f2-aa10-4ca4-bf10-2380d3a37a20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember13",
+      "targets": [
+        ["id=ember13", "id"],
+        ["css=#ember13", "css:finder"],
+        ["xpath=//button[@id='ember13']", "xpath:attributes"],
+        ["xpath=//div[@id='ember12']/button", "xpath:idRelative"],
+        ["xpath=//li[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dd7deba-97b0-48ca-b78a-92419adc7d93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember13",
+      "targets": [
+        ["id=ember13", "id"],
+        ["css=#ember13", "css:finder"],
+        ["xpath=//button[@id='ember13']", "xpath:attributes"],
+        ["xpath=//div[@id='ember12']/button", "xpath:idRelative"],
+        ["xpath=//li[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf58a44-534a-4b1b-84e4-f7118a8d1f26",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember14",
+      "targets": [
+        ["id=ember14", "id"],
+        ["css=#ember14", "css:finder"],
+        ["xpath=//img[@alt='maisha shams']", "xpath:img"],
+        ["xpath=//img[@id='ember14']", "xpath:attributes"],
+        ["xpath=//button[@id='ember13']/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49fd2ea8-5d12-4fd8-9a21-97e7efff3401",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember14",
+      "targets": [
+        ["id=ember14", "id"],
+        ["css=#ember14", "css:finder"],
+        ["xpath=//img[@alt='maisha shams']", "xpath:img"],
+        ["xpath=//img[@id='ember14']", "xpath:attributes"],
+        ["xpath=//button[@id='ember13']/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68096497-8bd0-4473-9cbe-49d6d8c3d93e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember13",
+      "targets": [
+        ["id=ember13", "id"],
+        ["css=#ember13", "css:finder"],
+        ["xpath=//button[@id='ember13']", "xpath:attributes"],
+        ["xpath=//div[@id='ember12']/button", "xpath:idRelative"],
+        ["xpath=//li[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df585d0-a411-405a-b0e9-f5a718eb7d39",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember13",
+      "targets": [
+        ["id=ember13", "id"],
+        ["css=#ember13", "css:finder"],
+        ["xpath=//button[@id='ember13']", "xpath:attributes"],
+        ["xpath=//div[@id='ember12']/button", "xpath:idRelative"],
+        ["xpath=//li[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "906c8496-a629-423f-b625-7c199b61257a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember13",
+      "targets": [
+        ["id=ember13", "id"],
+        ["css=#ember13", "css:finder"],
+        ["xpath=//button[@id='ember13']", "xpath:attributes"],
+        ["xpath=//div[@id='ember12']/button", "xpath:idRelative"],
+        ["xpath=//li[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "078c247a-4458-425c-a3bb-a8d31ff6d438",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Language",
+      "targets": [
+        ["linkText=Language", "linkText"],
+        ["css=.global-nav__secondary-item:nth-child(4) > .app-aware-link", "css:finder"],
+        ["xpath=//div[@id='ember15']/div/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/mypreferences/d/language/')]", "xpath:href"],
+        ["xpath=//li/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a014bea9-9290-4998-9985-b8ce97f6977a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9612778-8a08-4028-a7ea-e7a820c00eb7",
+      "comment": "",
+      "command": "click",
+      "target": "name=selectLanguage",
+      "targets": [
+        ["name=selectLanguage", "name"],
+        ["css=.select-language__language-select", "css:finder"],
+        ["xpath=//select[@name='selectLanguage']", "xpath:attributes"],
+        ["xpath=//div[@id='select-language']/div/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbaab91d-2e12-412b-ac06-a42084025ea7",
+      "comment": "",
+      "command": "select",
+      "target": "name=selectLanguage",
+      "targets": [],
+      "value": "label=Français (French)"
+    }]
+  }],
+  "suites": [{
+    "id": "280e9d4a-718d-4397-91ac-80b3209c2657",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e1364575-f85d-4ad1-89c2-59ac4d98e93e"]
+  }],
+  "urls": ["https://www.linkedin.com/"],
+  "plugins": []
+}
